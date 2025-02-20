@@ -6,6 +6,7 @@
 
   body {
     overflow-x: hidden;
+    
   }
 
   header {
@@ -385,7 +386,7 @@ margin-top: 10px;
     align-items: center;
     justify-content: space-evenly;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 75px;
     margin-top: 90px;
 
 }
@@ -416,6 +417,9 @@ margin-top: 10px;
 
 .search2-div {
     width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .search-2 {
@@ -476,3 +480,135 @@ margin-top: 10px;
         width: 290px;
     } 
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 128);
+}
+
+.main-footer-div {
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+
+}
+
+
+.contact-info-div-div {
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contact-info-div1-2 {
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.mail-phone-icon {
+
+  width:15px ;
+  height:18px ;
+}
+
+.contact-info-div1-2 h2 {
+
+  font-size: 18px;
+  color: hsl(0, 0%, 75%);
+  font-family: "Open Sans", serif;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+
+
+.footer-ctn-txt-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-ctn-txt-div h2 {
+
+    font-size: 15px;
+    color: hsl(0, 0%, 75%);
+    font-family: "Open Sans", serif;
+}
+
+.social-logos {
+  display: flex;
+  gap: 15px;
+}
+.contact-info-div1-2 h2 {
+  width: 290px;
+} 
+
+.footer-ctn-txt-div h2{
+
+  width: 290px;
+}
+
+.footer-logo {
+  margin-left: 70px;
+}
+
+
+.footer-ctn-txt-div h2:hover {
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+  transform: translateY(-2px);
+  transition: 0.2s;
+  cursor: pointer;
+  color: cyan;
+}
+
+@media (max-width: 1280px) {
+  .contact-info-div1-2 h2 {
+    width: fit-content;
+  } 
+  
+  .footer-ctn-txt-div h2{
+  
+    width: fit-content;
+  }
+
+} 
+
+@media (max-width: 1280px) {
+
+  .footer-logo-div {
+    display: flex;
+    justify-content: center;
+   
+  
+  }
+
+  .footer-logo {
+    margin: 0;
+    margin-bottom: 25px;
+    margin-top: 40px;
+  }
+
+  .main-footer-div {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  .footer-ctn-txt-div {
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+}
+
+footer {
+  padding-bottom: 50px;
+}
+
+
